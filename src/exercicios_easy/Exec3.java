@@ -4,16 +4,18 @@ package exercicios_easy;
 import javax.swing.*;
 
 public class Exec3 {
-    public static void main(String[] args) {
-        String cidade, estado, auxiliar;
-//Ler
-        cidade= JOptionPane.showInputDialog("Digite a Cidade");
-        estado= JOptionPane.showInputDialog("Digite o Estado");
-        auxiliar=cidade;
-//Troca
-        cidade=estado;
-        estado=auxiliar;
-//Exibir
-        System.out.println(cidade +" - "+  estado);
+    public String nometrocado(String nome, String sobrenome) {
+        return "O nome é: " + sobrenome + " " + nome;
     }
 }
+////Ler
+//        cidade= JOptionPane.showInputDialog("Digite a Cidade");
+//        estado= JOptionPane.showInputDialog("Digite o Estado");
+//        auxiliar=cidade;
+////Troca
+//        cidade=estado;
+//        estado=auxiliar;
+////Exibir
+//        System.out.println(cidade +" - "+  estado);
+
+
