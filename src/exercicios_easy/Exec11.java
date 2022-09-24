@@ -6,17 +6,25 @@ package exercicios_easy;
 import javax.swing.*;
 
 public class Exec11 {
-    public static void main(String[] args) {
+    public String calculadora(int num1) {
+        int i = 1;
 
-        int num1, i;
-        i=1;
-
-        num1=Integer.parseInt(JOptionPane.showInputDialog("digite o numero que deseja calcular"));
-
-        while (i<=100) {
-            num1=num1+2;
-            System.out.println("A soma é: "+num1);
-            i=i+1;
+        while (i <= 100) {
+            num1 = num1 + 2;
+            System.out.println("A soma é: " + num1);
+            i = i + 1;
         }
+        return "A soma é final é: " + num1;
     }
 }
+
+//        int num1, i;
+//        i=1;
+//        num1=Integer.parseInt(JOptionPane.showInputDialog("digite o numero que deseja calcular"));
+//        while (i<=100) {
+//            num1=num1+2;
+//            System.out.println("A soma é: "+num1);
+//            i=i+1;
+//        }
+
+
