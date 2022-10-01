@@ -6,11 +6,12 @@ package exercicios_easy;
 public class Exec9 {
     public String calcularTabuada(int tabuada) {
         int calculo = 1;
+        String retorno= " ";
         while (calculo <= 10) {
-            System.out.println(tabuada + " * " + calculo + " = " + tabuada * calculo);
+            retorno=(tabuada + " * " + calculo + " = " + tabuada * calculo);
             calculo = calculo + 1;
         }
-        return null;
+        return retorno;
     }
 
 //int tabuada, calculo;

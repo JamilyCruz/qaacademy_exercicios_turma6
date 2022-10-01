@@ -7,39 +7,30 @@ import javax.swing.*;
 
 public class Exec8 {
     public String calcularIr(double salarioBruto) {
-
+        String calculo = " ";
 
         if (salarioBruto<=1903.98) {
             double ir=(salarioBruto*1)-0;
-            System.out.println("O valor do seu imposto de renda é " + ir);
-            System.out.println("O valor do seu salario bruto é " + salarioBruto);
-            System.out.println("O valor do seu salario liquido é " + (salarioBruto - ir));
+            calculo= ("O valor do seu imposto de renda é " + ir)+("O valor do seu salario bruto é " + salarioBruto)+("O valor do seu salario liquido é " + (salarioBruto - ir));
         }
         if (salarioBruto>=1903.99&&salarioBruto<=2826.65) {
             double ir= ((salarioBruto*0.075)-142.80);
-            System.out.println("O valor do seu imposto de renda é " + ir);
-            System.out.println("O valor do seu salario bruto é " + salarioBruto);
-            System.out.println("O valor do seu salario liquido é " + (salarioBruto - ir));
+            calculo=("O valor do seu imposto de renda é " + ir)+("O valor do seu salario bruto é " + salarioBruto)+("O valor do seu salario liquido é " + (salarioBruto - ir));
         }
         if (salarioBruto>=2826.66&&salarioBruto<=3751.05) {
             double ir= ((salarioBruto*0.15)-354.80);
-            System.out.println("O valor do seu imposto de renda é " + ir);
-            System.out.println("O valor do seu salario bruto é " + salarioBruto);
-            System.out.println("O valor do seu salario liquido é " + (salarioBruto - ir));
+            calculo=("O valor do seu imposto de renda é " + ir)+("O valor do seu salario bruto é " + salarioBruto)+("O valor do seu salario liquido é " + (salarioBruto - ir));
         }
         if (salarioBruto>=3751.06&&salarioBruto<=4664.68) {
             double ir= ((salarioBruto*0.225)-636.13);
-            System.out.println("O valor do seu imposto de renda é " + ir);
-            System.out.println("O valor do seu salario bruto é " + salarioBruto);
-            System.out.println("O valor do seu salario liquido é " + (salarioBruto - ir));
+            calculo=("O valor do seu imposto de renda é " + ir)+("O valor do seu salario bruto é " + salarioBruto)+("O valor do seu salario liquido é " + (salarioBruto - ir));
         }
         if (salarioBruto>=4664.68) {
             double ir= ((salarioBruto*0.275)-869.36);
-            System.out.println("O valor do seu imposto de renda é " + ir);
-            System.out.println("O valor do seu salario bruto é " + salarioBruto);
-            System.out.println("O valor do seu salario liquido é " + (salarioBruto - ir));
+            calculo=("O valor do seu imposto de renda é " + ir)+("O valor do seu salario bruto é " + salarioBruto)+("O valor do seu salario liquido é " + (salarioBruto - ir));
         }
-        return null; }
+        return calculo;
+    }
 }
 
 //        float salarioBruto, ir;
