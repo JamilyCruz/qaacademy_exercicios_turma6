@@ -5,17 +5,16 @@ package exercicios_easy;
 import javax.swing.*;
 
 public class Exec7 {
-    public String salario(double valorSalario) {
-        String retorno=" ";
+    public double salario(double valorSalario) {
         if(valorSalario<=1045.00){
-          retorno=(("O valor do INSS a ser pago é ")+valorSalario*0.075);}
+            System.out.println(("O valor do INSS a ser pago é ")+valorSalario*0.075);}
         if(valorSalario>=1045.01&&valorSalario<=2089.60){
-            retorno=(("O valor do INSS a ser pago é ")+valorSalario*0.09);}
+            System.out.println(("O valor do INSS a ser pago é ")+valorSalario*0.09);}
         if(valorSalario>=2089.61&&valorSalario<=3134.40){
-            retorno=(("O valor do INSS a ser pago é ")+valorSalario*0.12);}
+            System.out.println(("O valor do INSS a ser pago é ")+valorSalario*0.12);}
         if(valorSalario>=3134.41){
-            retorno=(("O valor do INSS a ser pago é ")+valorSalario*0.14);}
-        return retorno;
+            System.out.println(("O valor do INSS a ser pago é ")+valorSalario*0.14);}
+        return valorSalario;
     }
 
 //        float salario;

@@ -4,17 +4,15 @@ package exercicios_easy;
 import javax.swing.*;
 
 public class Exec6 {
-    public String media(int nota1, int nota2) {
+    public int mediafinal(int nota1, int nota2) {
        int media=(nota1+nota2)/2;
-       String retorno=" ";
        if (media>5){
-           retorno = "Você foi Aprovado!";}
+           System.out.println("Você foi Aprovado!");}
        if(media<5){
-           retorno = "Que pena, você foi Reprovado!";}
+           System.out.println("Que pena, você foi Reprovado!");}
        if(media==5){
-           retorno = "Não desista, você ficou de recuperação!";}
-       return retorno;
-    }
+           System.out.println("Não desista, você ficou de recuperação!");}
+       return media;
 }
 
 //        int nota1, nota2, media;
@@ -36,4 +34,4 @@ public class Exec6 {
 //        }
 //
 //    }
-
+}

@@ -4,9 +4,9 @@ package exercicios_easy;
 import javax.swing.*;
 
 public class Exec4 {
-    public int calcularDobro (int nun1) {
-        return nun1 * 2;
-    }}
+    public int calcularDobro (int nun1){
+        return (nun1 * 2);
+
 
 //    //Declarar a variavel
 //        int num1, result;
@@ -19,4 +19,4 @@ public class Exec4 {
 //        //Exibir
 //        System.out.println("O dobro é " +result);
 
-
+    }
