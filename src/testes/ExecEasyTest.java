@@ -41,7 +41,7 @@ public class ExecEasyTest {
     @Test
     public void media(){
         Exec6 exec6=new Exec6();
-        int media= exec6.mediafinal(10,10);
+        int media= exec6.mediaFinal(10,10);
         assertEquals(10, media);
     }
 
@@ -57,6 +57,12 @@ public class ExecEasyTest {
         Exec8 exec8=new Exec8();
         exec8.calcularIr(2899.85);
         assertEquals("O valor do seu imposto de renda é 80.17749999999995O valor do seu salario bruto é 2899.85O valor do seu salario liquido é 2819.6725", exec8.calcularIr(2899.85));
+    }
+
+    public void calculoIrIsento(){
+        Exec8 exec8=new Exec8();
+        exec8.calcularIr(100);
+        assertEquals("Isento de Imposto de Renda", exec8.calcularIr(100));
     }
 
     @Test
@@ -77,6 +83,4 @@ public class ExecEasyTest {
         exec11.calculadora(10);
         assertEquals("A soma é final é: 210", exec11.calculadora(10));
     }
-
-
 }

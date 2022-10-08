@@ -1,10 +1,8 @@
 package exercicios_easy;
 //6 - Faça um algoritmo para ler duas notas, calcular a média. E SE - a média > 5 Exibir aprovado, SE a média < 5 exibir reprovado, se media = 5 exibir exame.
 
-import javax.swing.*;
-
 public class Exec6 {
-    public int mediafinal(int nota1, int nota2) {
+    public int mediaFinal(int nota1, int nota2) {
        int media=(nota1+nota2)/2;
        if (media>5){
            System.out.println("Você foi Aprovado!");}

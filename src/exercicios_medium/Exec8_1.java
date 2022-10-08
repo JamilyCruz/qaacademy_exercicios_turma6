@@ -1,9 +1,9 @@
-package exercicíos_medium;
+package exercicios_medium;
 
 import javax.swing.*;
 
 public class Exec8_1 {
-    public static void main(String[] args) {
+    public void meses2() {
         String meses[] = new String[12];
         int pesquisa;
 

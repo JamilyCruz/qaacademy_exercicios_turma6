@@ -1,6 +1,6 @@
-package exercicíos_medium;
+package exercicios_medium;
 
-public class Exec8 {public static void main(String[] args) {
+public class Exec8 {public void meses() {
     String meses[] = new String[12];
 
     meses[0] ="Janeiro";

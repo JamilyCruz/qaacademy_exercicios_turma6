@@ -1,8 +1,8 @@
-package exercicíos_medium;
+package exercicios_medium;
 //Faça um algoritmo para ler todos os meses do ano, armazene em um vetor
 
 public class Exec7 {
-    public static void main(String[] args) {
+    public void mesesDoAno() {
         String meses[] = new String[12];
 
         meses[0] ="Janeiro";

@@ -3,15 +3,14 @@ package exercicios_easy;
 //Exercício 8 - Faça um algoritmo para ler um valor de salário, calcular e exibir o valor do salário bruto, valor do
 //salário líquido e o valor do imposto de renda. Respeitando a tabela abaixo:
 
-import javax.swing.*;
-
 public class Exec8 {
     public String calcularIr(double salarioBruto) {
         String calculo = " ";
 
         if (salarioBruto<=1903.98) {
             double ir=(salarioBruto*1)-0;
-            calculo= ("O valor do seu imposto de renda é " + ir)+("O valor do seu salario bruto é " + salarioBruto)+("O valor do seu salario liquido é " + (salarioBruto - ir));
+            calculo= ("Isento de Imposto de Renda");
+//          calculo= ("O valor do seu imposto de renda é " + ir)+("O valor do seu salario bruto é " + salarioBruto)+("O valor do seu salario liquido é " + (salarioBruto - ir));
         }
         if (salarioBruto>=1903.99&&salarioBruto<=2826.65) {
             double ir= ((salarioBruto*0.075)-142.80);

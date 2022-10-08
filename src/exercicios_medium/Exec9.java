@@ -1,4 +1,4 @@
-package exercicíos_medium;
+package exercicios_medium;
 
 //Exercício 09 - Faça um algoritmo para:
 //Criar dois vetores.
@@ -9,7 +9,7 @@ package exercicíos_medium;
 import javax.swing.*;
 
 public class Exec9 {
-    public static void main(String[] args) {
+    public void aluno() {
         String nome[] = new String[3];
         int num[] = new int[3];
         String pesquisa[] = new String[3];

@@ -2,11 +2,9 @@ package exercicios_easy;
 //Exercício 7 - Faça um algoritmo para ler um valor de salário, calcular e exibir o
 //valor do INSS a ser pago. Respeitando a tabela abaixo:
 
-import javax.swing.*;
-
 public class Exec7 {
     public String salario(double valorSalario) {
-        String imposto = "";
+        String imposto = " ";
         if(valorSalario<=1045.00){
             imposto= (("O valor do INSS a ser pago é ")+valorSalario*0.075);}
         if(valorSalario>=1045.01&&valorSalario<=2089.60){

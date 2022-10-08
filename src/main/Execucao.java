@@ -1,14 +1,9 @@
 package main;
 
-import exemplos.MetodoSemMain;
-import exercicios_easy.*;
-
-import javax.swing.*;
-
 public class Execucao {
     public static void main(String[] args) {
-      Exec11 exec11=new Exec11();
-      System.out.println(exec11.calculadora(10));
+//      Exec11 exec11=new Exec11();
+//      System.out.println(exec11.calculadora(10));
 
 //      Exec10 exec10=new Exec10();
 //      System.out.println(exec10.investimento(2000));
@@ -19,11 +14,12 @@ public class Execucao {
 //      Exec8 exec8 = new Exec8();
 //      System.out.println(exec8.calcularIr(2899.85));
 
-//      Exec7 exec7=new Exec7();
-//      System.out.println(exec7.salario(2555.58));
+
+//        Exec7 exec7=new Exec7();
+//        System.out.println(exec7.salario(1500));
 
 //      Exec6 exec6=new Exec6();
-//      System.out.println (exec6.media(8,3));
+//      System.out.println (exec6.mediaFinal(8,3));
 
 //      Exec5 exec5=new Exec5();
 //      System.out.println("A soma é: " + exec5.soma(10,7,4));

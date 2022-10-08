@@ -1,15 +1,12 @@
-package exercicíos_medium;
+package exercicios_medium;
 //Faça um algoritmo para ler 5 números, verificar e exibir, quais dos 5 números digitados, é o menor.
 
-import javax.swing.*;
-
 public class Exec5 {
-    public static void main(String[] args) {
-        int i=1, numdig=0, menor=0;
+    public void menorNum(int numdig) {
+        int i=1, menor=0;
 
         while (i <= 5) {
-            numdig = Integer.parseInt(JOptionPane.showInputDialog("Digite um número"));
-            if (numdig <= menor || i==1)
+           if (numdig <= menor || i==1)
             menor=numdig;
             i++;
         }
